@@ -36,7 +36,7 @@ app.get('/help',function(req,res){
 
 app.get('/weather',async function(req,res){
     const myCity = req.query.city;
-    console.log(req.query.city);
+   // console.log(req.query.city);
     const url_api = `https://api.openweathermap.org/data/2.5/weather?q=${myCity}&appid=872291a5a7a05cf77598f5a580d41011&units=metric`;
 
     try {
