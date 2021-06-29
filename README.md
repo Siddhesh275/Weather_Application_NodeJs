@@ -11,9 +11,6 @@
 * Nodejs
 * ExpressJS
 
-### Database
-* MongoDB
-
 ## Inital setup
  1. Clone github repository or Download the zip file
 
